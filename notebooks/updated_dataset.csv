@@ -667,7 +667,7 @@ EZYV665,Europe,Bachelor's,N,N,2440,1994,West,30409.94,Year,Y,Certified
 EZYV666,North America,Master's,N,N,93759,1983,Midwest,74237.68,Year,Y,Certified
 EZYV667,Asia,High School,Y,N,1433,1987,Northeast,25467.02,Year,Y,Denied
 EZYV668,Asia,Master's,Y,N,2950,2009,South,849.455,Hour,Y,Certified
-EZYV669,Asia,Bachelor's,Y,N,5660,2000,Northeast,64938.71,Year,Y,Certified
+EZYV669,Asia,Bachelor's,Y,N,5660,2000,Northeast,,Year,Y,Certified
 EZYV670,Asia,Bachelor's,Y,N,992,1992,West,218554.78,Year,Y,Certified
 EZYV671,Asia,Bachelor's,N,N,1574,2012,South,3080.38,Year,Y,Certified
 EZYV672,Asia,High School,Y,N,3361,1993,West,212159.14,Year,Y,Denied
@@ -741,7 +741,7 @@ EZYV739,North America,Bachelor's,Y,N,1222,1997,Northeast,851.4471,Hour,Y,Denied
 EZYV740,Asia,High School,N,Y,819,2002,South,26055.3,Year,Y,Certified
 EZYV741,South America,High School,Y,N,1466,1998,West,163906.88,Year,N,Certified
 EZYV742,Asia,High School,Y,N,603,2010,South,45833.71,Year,Y,Certified
-EZYV743,Europe,Doctorate,N,N,3393,2013,West,28534.67,Year,Y,Certified
+EZYV743,Europe,,N,N,3393,2013,West,28534.67,Year,Y,Certified
 EZYV744,Europe,Bachelor's,Y,Y,1154,2010,South,75796.85,Year,Y,Certified
 EZYV745,North America,High School,Y,N,4181,2002,West,724.0276,Hour,Y,Certified
 EZYV746,Asia,Master's,Y,N,620,1998,West,43425.93,Year,Y,Certified
@@ -805,7 +805,7 @@ EZYV803,Asia,Bachelor's,Y,N,2187,2004,Northeast,39353.22,Year,Y,Certified
 EZYV804,Europe,Bachelor's,Y,Y,10003,1968,South,54981.44,Year,Y,Certified
 EZYV805,South America,Bachelor's,N,Y,2726,1995,Northeast,119943.88,Year,Y,Denied
 EZYV806,Asia,Doctorate,Y,N,4220,1990,Northeast,61680.23,Year,Y,Certified
-EZYV807,Asia,Bachelor's,Y,N,1817,1817,West,16196.99,Year,Y,Certified
+EZYV807,Asia,Bachelor's,Y,N,1817,1817,West,,Year,Y,Certified
 EZYV808,Asia,Master's,Y,N,1602,1916,Northeast,162410.95,Year,N,Certified
 EZYV809,Asia,Bachelor's,Y,N,1809,2008,West,80375.25,Year,Y,Certified
 EZYV810,Europe,Doctorate,Y,N,3477,2008,Northeast,71113.2,Year,Y,Certified
@@ -1629,7 +1629,7 @@ EZYV1627,Africa,Bachelor's,Y,Y,60548,2007,South,131928.61,Year,Y,Certified
 EZYV1628,Europe,Doctorate,Y,N,1085,1999,Northeast,42733.57,Year,Y,Certified
 EZYV1629,Asia,Master's,N,N,3058,1994,Midwest,130860.17,Year,Y,Certified
 EZYV1630,Europe,High School,Y,N,1608,1995,West,26176.33,Year,N,Denied
-EZYV1631,Asia,Bachelor's,N,N,1267,1986,Northeast,122.57,Hour,Y,Denied
+EZYV1631,Asia,Bachelor's,N,N,1267,1986,Northeast,,Hour,Y,Denied
 EZYV1632,Asia,Bachelor's,Y,N,204,1971,South,566.4743,Hour,Y,Certified
 EZYV1633,Asia,Bachelor's,Y,N,2575,1997,Northeast,55928.49,Year,Y,Certified
 EZYV1634,Asia,Bachelor's,Y,N,5187,2003,West,96194.22,Year,Y,Certified
@@ -2294,7 +2294,7 @@ EZYV2292,Asia,Bachelor's,Y,N,3180,1987,South,54288.9,Year,Y,Certified
 EZYV2293,Asia,Bachelor's,N,N,3504,2000,South,16641.15,Year,Y,Certified
 EZYV2294,Asia,Bachelor's,Y,N,1442,2007,South,84899.2,Year,Y,Certified
 EZYV2295,Asia,Master's,Y,N,2895,2006,South,31247.22,Year,Y,Certified
-EZYV2296,Asia,Master's,Y,N,1278,2008,West,101011.92,Week,Y,Certified
+EZYV2296,Asia,,Y,N,1278,2008,West,101011.92,Week,Y,Certified
 EZYV2297,Asia,Doctorate,N,Y,3026,2001,South,94061.66,Year,Y,Certified
 EZYV2298,Asia,High School,Y,N,633,2009,Northeast,89394.5,Week,Y,Denied
 EZYV2299,Asia,Bachelor's,Y,N,2581,1974,Midwest,99064.63,Year,Y,Certified
@@ -3995,7 +3995,7 @@ EZYV3993,Asia,Bachelor's,Y,N,3423,2006,Midwest,86262.7,Year,Y,Certified
 EZYV3994,Asia,Master's,Y,N,1300,1960,Midwest,165240.73,Year,N,Certified
 EZYV3995,Asia,Master's,Y,N,2764,2012,South,30440.73,Year,N,Certified
 EZYV3996,Europe,Doctorate,Y,N,1652,1997,Northeast,63277.1,Year,Y,Certified
-EZYV3997,Asia,Bachelor's,Y,N,1477,1911,West,72890.47,Year,Y,Certified
+EZYV3997,Asia,Bachelor's,Y,N,1477,1911,West,,Year,Y,Certified
 EZYV3998,Asia,Master's,N,Y,1888,1957,Northeast,105194.33,Year,Y,Denied
 EZYV3999,Asia,Bachelor's,Y,N,1988,2005,Midwest,2460.33,Year,Y,Certified
 EZYV4000,Asia,High School,N,Y,405,1993,Midwest,73115.34,Year,Y,Denied
@@ -4551,7 +4551,7 @@ EZYV4549,Asia,Bachelor's,N,Y,1478,2000,Northeast,19130.72,Year,Y,Denied
 EZYV4550,Asia,Master's,Y,N,2750,1909,Northeast,159140.16,Year,N,Certified
 EZYV4551,Europe,Bachelor's,N,N,24092,1972,West,103942.73,Year,Y,Certified
 EZYV4552,Asia,Bachelor's,N,N,1097,2006,West,42684.51,Year,Y,Denied
-EZYV4553,Europe,Master's,N,N,2762,1999,West,103795.42,Year,Y,Certified
+EZYV4553,Europe,Master's,N,N,2762,1999,West,,Year,Y,Certified
 EZYV4554,Europe,Bachelor's,Y,N,3160,2002,South,816.3723,Hour,Y,Denied
 EZYV4555,Asia,Bachelor's,Y,N,1855,2013,Northeast,54959.8,Year,Y,Certified
 EZYV4556,South America,Bachelor's,N,N,3285,1997,West,2530.09,Year,Y,Denied
@@ -5786,7 +5786,7 @@ EZYV5784,Asia,Doctorate,Y,N,1612,1989,Northeast,68033.17,Year,Y,Certified
 EZYV5785,Asia,Bachelor's,N,N,2990,1925,Northeast,249.1278,Hour,Y,Denied
 EZYV5786,North America,Bachelor's,N,Y,2614,2007,South,68937.13,Year,Y,Certified
 EZYV5787,Europe,Bachelor's,N,N,2376,1831,South,110045.01,Year,Y,Certified
-EZYV5788,Asia,Bachelor's,N,N,3456,2008,South,103121.88,Year,Y,Certified
+EZYV5788,Asia,Bachelor's,N,N,3456,2008,South,,Year,Y,Certified
 EZYV5789,Asia,Master's,Y,N,188,2009,South,19906.42,Year,Y,Certified
 EZYV5790,North America,High School,Y,N,1070,1999,Midwest,61053.87,Year,Y,Certified
 EZYV5791,Europe,Doctorate,N,N,14756,2002,West,25577.22,Year,Y,Certified
@@ -6071,7 +6071,7 @@ EZYV6069,Asia,Master's,N,Y,2497,1968,West,118318.48,Year,Y,Certified
 EZYV6070,Asia,Master's,N,Y,3520,1957,West,82751.82,Year,Y,Certified
 EZYV6071,Asia,Bachelor's,N,N,3414,2003,Northeast,36686.03,Year,Y,Certified
 EZYV6072,Asia,Master's,Y,N,2488,2001,Northeast,10137.39,Year,Y,Certified
-EZYV6073,Asia,Master's,Y,N,2796,1996,Northeast,31318.06,Year,Y,Certified
+EZYV6073,Asia,Master's,Y,N,2796,1996,Northeast,,Year,Y,Certified
 EZYV6074,Asia,Master's,N,N,4679,1998,West,85248.54,Year,N,Certified
 EZYV6075,Asia,High School,N,N,2123,1968,Northeast,231.938,Hour,Y,Denied
 EZYV6076,Asia,Bachelor's,Y,N,232,2007,West,69576.4,Year,Y,Denied
@@ -6207,7 +6207,7 @@ EZYV6205,North America,Bachelor's,N,N,1361,2004,South,92231.75,Year,Y,Certified
 EZYV6206,Asia,Master's,N,N,4137,1869,West,95645.29,Year,Y,Certified
 EZYV6207,Asia,High School,N,N,1025,2000,Northeast,78103.74,Year,Y,Denied
 EZYV6208,Asia,Master's,Y,N,2021,1932,Midwest,147419.9,Year,Y,Certified
-EZYV6209,Asia,Bachelor's,Y,N,482,2005,Northeast,55136.54,Year,N,Certified
+EZYV6209,Asia,Bachelor's,Y,N,482,2005,Northeast,,Year,N,Certified
 EZYV6210,Asia,Master's,Y,N,2304,2007,South,151277.04,Year,Y,Certified
 EZYV6211,Asia,Bachelor's,N,N,1474,1996,West,102595.24,Year,Y,Certified
 EZYV6212,Asia,Master's,Y,N,552,1985,Midwest,167014.38,Year,Y,Certified
@@ -6766,7 +6766,7 @@ EZYV6764,Oceania,Doctorate,Y,N,398,1903,Midwest,67854.66,Year,Y,Certified
 EZYV6765,Asia,Bachelor's,Y,N,1687,2000,Midwest,215192.35,Year,Y,Certified
 EZYV6766,Europe,High School,Y,N,1972,1949,West,149869.85,Year,Y,Denied
 EZYV6767,South America,High School,N,Y,1194,1838,Midwest,850.9943,Hour,Y,Certified
-EZYV6768,Asia,Master's,Y,N,2778,2002,Northeast,2033.8,Year,Y,Certified
+EZYV6768,Asia,Master's,Y,N,2778,2002,Northeast,,Year,Y,Certified
 EZYV6769,Asia,High School,N,N,2131,2013,Midwest,147.32,Hour,Y,Denied
 EZYV6770,South America,Master's,N,N,1034,1999,South,121584.6,Year,Y,Certified
 EZYV6771,South America,Bachelor's,N,N,2675,1977,Northeast,46.5932,Hour,Y,Denied
@@ -6929,7 +6929,7 @@ EZYV6927,Asia,Master's,Y,N,1664,1983,Midwest,113753.59,Year,Y,Certified
 EZYV6928,Asia,Bachelor's,Y,Y,2701,2010,Northeast,82468.86,Year,Y,Denied
 EZYV6929,Europe,Master's,Y,N,1674,1998,West,517.271,Hour,Y,Certified
 EZYV6930,Asia,Master's,N,N,3580,1994,West,68941.1,Year,Y,Certified
-EZYV6931,Europe,Doctorate,Y,N,3146,2011,Northeast,103959.13,Year,Y,Certified
+EZYV6931,Europe,Doctorate,Y,N,3146,2011,Northeast,,Year,Y,Certified
 EZYV6932,Europe,Master's,N,N,2631,2006,Northeast,88684.87,Year,Y,Certified
 EZYV6933,North America,Master's,Y,N,3615,1931,Northeast,90017.02,Year,Y,Denied
 EZYV6934,Asia,Master's,N,N,17692,2010,Midwest,75867.09,Year,Y,Certified
@@ -6956,7 +6956,7 @@ EZYV6954,Oceania,Bachelor's,N,N,2703,1984,Northeast,49829.96,Year,Y,Denied
 EZYV6955,Asia,Master's,Y,N,3015,1873,Midwest,79679.26,Year,Y,Certified
 EZYV6956,Asia,Bachelor's,Y,N,5211,2010,South,44919.86,Year,Y,Certified
 EZYV6957,Asia,Bachelor's,N,Y,1038,2003,Northeast,104.77,Hour,Y,Denied
-EZYV6958,Europe,Master's,Y,Y,622,1989,Midwest,56574.41,Year,Y,Certified
+EZYV6958,Europe,,Y,Y,622,1989,Midwest,56574.41,Year,Y,Certified
 EZYV6959,North America,Bachelor's,Y,N,170,1899,Northeast,30424.64,Year,Y,Denied
 EZYV6960,Asia,Bachelor's,Y,Y,822,2007,South,89820.6,Year,Y,Certified
 EZYV6961,Asia,Master's,N,N,3224,1991,West,70223.36,Year,Y,Certified
@@ -7342,7 +7342,7 @@ EZYV7340,Asia,Bachelor's,N,N,700,2006,Northeast,47102.64,Year,Y,Certified
 EZYV7341,Asia,High School,Y,N,2701,1980,Midwest,195534.18,Year,Y,Denied
 EZYV7342,Europe,Bachelor's,Y,N,3564,2002,West,16800.98,Year,Y,Certified
 EZYV7343,Asia,Bachelor's,N,N,403,1855,Midwest,134595.21,Year,Y,Certified
-EZYV7344,North America,Bachelor's,N,N,3456,1992,Northeast,126744.96,Year,Y,Denied
+EZYV7344,North America,Bachelor's,N,N,3456,1992,Northeast,,Year,Y,Denied
 EZYV7345,Asia,High School,Y,N,4688,1965,Northeast,80917.1,Year,Y,Denied
 EZYV7346,Europe,Doctorate,Y,N,5788,1931,West,6143.66,Year,Y,Certified
 EZYV7347,Europe,Doctorate,Y,N,2869,1999,South,12786.13,Year,Y,Certified
@@ -7762,7 +7762,7 @@ EZYV7760,Asia,Master's,Y,N,1329,2009,Midwest,119030.45,Year,Y,Certified
 EZYV7761,Asia,Bachelor's,N,N,1356,1971,Northeast,735.9425,Hour,Y,Denied
 EZYV7762,Asia,Master's,N,N,-11,2009,Midwest,38457.51,Year,Y,Certified
 EZYV7763,Asia,Master's,Y,N,1997,1850,West,110971.9,Year,Y,Certified
-EZYV7764,Asia,Bachelor's,Y,N,166,1981,Midwest,16239.03,Year,Y,Denied
+EZYV7764,Asia,Bachelor's,Y,N,166,1981,Midwest,,Year,Y,Denied
 EZYV7765,Asia,Master's,N,N,1607,1817,South,145426.67,Year,N,Certified
 EZYV7766,Asia,Bachelor's,Y,Y,34677,1976,South,57282.4,Year,Y,Certified
 EZYV7767,Europe,Master's,N,N,1667,2007,Midwest,97810.8,Year,Y,Certified
@@ -8853,7 +8853,7 @@ EZYV8851,Asia,High School,Y,N,1584,1804,South,159688.85,Year,N,Denied
 EZYV8852,Europe,Doctorate,Y,N,1693,1968,Northeast,73699.54,Year,Y,Certified
 EZYV8853,Asia,Bachelor's,Y,N,3978,2000,Northeast,71242.79,Year,Y,Certified
 EZYV8854,Asia,Master's,N,N,1254,1947,South,17938.16,Year,N,Certified
-EZYV8855,Asia,Master's,Y,N,2877,1975,South,60777.57,Year,Y,Certified
+EZYV8855,Asia,Master's,Y,N,2877,1975,South,,Year,Y,Certified
 EZYV8856,Asia,Master's,N,N,2458,1998,South,114615.23,Year,N,Certified
 EZYV8857,Asia,Doctorate,Y,N,192,1980,West,158883.48,Year,Y,Certified
 EZYV8858,Europe,Master's,Y,N,1877,2002,South,49389.9,Year,Y,Certified
@@ -9625,7 +9625,7 @@ EZYV9623,Asia,Master's,N,Y,1790,1990,South,184360.4,Year,Y,Certified
 EZYV9624,North America,Master's,Y,N,79,2008,Midwest,204868.83,Year,Y,Certified
 EZYV9625,Asia,Bachelor's,N,N,2275,2012,West,55115.43,Year,Y,Certified
 EZYV9626,Asia,Bachelor's,N,N,194,1994,West,187776.64,Year,Y,Certified
-EZYV9627,Asia,Bachelor's,N,Y,1194,2009,Midwest,67462.4,Year,Y,Certified
+EZYV9627,Asia,Bachelor's,N,Y,1194,2009,Midwest,,Year,Y,Certified
 EZYV9628,Europe,Bachelor's,Y,N,2735,1952,West,56119.78,Year,Y,Denied
 EZYV9629,North America,Bachelor's,Y,N,410,1998,Northeast,113770.16,Year,Y,Denied
 EZYV9630,Asia,Master's,N,N,2065,1997,Northeast,15752.27,Year,Y,Certified
@@ -10231,7 +10231,7 @@ EZYV10229,Europe,Master's,Y,N,952,1879,South,76490.79,Year,Y,Certified
 EZYV10230,Asia,Master's,Y,N,1305,1986,Midwest,69650.25,Week,Y,Certified
 EZYV10231,Asia,Bachelor's,Y,N,2076,2004,West,122240.98,Year,Y,Certified
 EZYV10232,Asia,Bachelor's,Y,N,3370,2000,Northeast,560.3623,Hour,Y,Denied
-EZYV10233,North America,Bachelor's,N,N,2182,1997,Northeast,281.1569,Hour,Y,Denied
+EZYV10233,North America,Bachelor's,N,N,2182,1997,Northeast,,Hour,Y,Denied
 EZYV10234,Africa,Bachelor's,N,N,63,1990,Northeast,697.8354,Hour,Y,Denied
 EZYV10235,Asia,Master's,Y,N,30441,1997,West,93918.51,Year,Y,Certified
 EZYV10236,Asia,Bachelor's,Y,N,2435,1998,Northeast,615.8692,Hour,Y,Denied
@@ -10528,7 +10528,7 @@ EZYV10526,Asia,Master's,N,N,719,1868,West,147415.92,Year,N,Denied
 EZYV10527,Asia,Bachelor's,Y,N,2940,1984,Northeast,69591.28,Year,Y,Certified
 EZYV10528,Africa,Bachelor's,Y,N,743,1866,West,43189.93,Year,Y,Certified
 EZYV10529,Asia,Master's,Y,N,1081,1981,South,3100.07,Year,Y,Certified
-EZYV10530,Asia,Bachelor's,N,N,842,1990,West,131347.64,Year,Y,Denied
+EZYV10530,Asia,,N,N,842,1990,West,131347.64,Year,Y,Denied
 EZYV10531,Asia,Bachelor's,Y,N,3013,1924,Northeast,9225.26,Year,N,Denied
 EZYV10532,Asia,Master's,N,N,3466,1998,Midwest,159783.24,Year,Y,Certified
 EZYV10533,Europe,Doctorate,Y,N,28027,1998,South,44248.08,Year,Y,Certified
@@ -10854,7 +10854,7 @@ EZYV10852,Europe,Master's,Y,N,1830,1996,South,39778.92,Year,Y,Certified
 EZYV10853,Europe,Bachelor's,N,N,4724,1977,West,54019.81,Year,Y,Certified
 EZYV10854,Asia,Bachelor's,N,N,8938,2010,West,80593.46,Year,Y,Denied
 EZYV10855,Europe,Doctorate,Y,N,3524,1978,West,72737.66,Year,Y,Certified
-EZYV10856,North America,Doctorate,N,N,1912,2007,West,50251.04,Year,Y,Certified
+EZYV10856,North America,,N,N,1912,2007,West,50251.04,Year,Y,Certified
 EZYV10857,Asia,Master's,N,N,2604,2013,Midwest,84049.1,Year,N,Certified
 EZYV10858,Asia,Doctorate,Y,Y,1271,2005,South,18663.73,Year,Y,Certified
 EZYV10859,Europe,Doctorate,Y,N,2644,2004,West,41850.56,Year,Y,Certified
@@ -11300,7 +11300,7 @@ EZYV11298,North America,Bachelor's,N,N,3581,2009,West,8431.26,Year,Y,Certified
 EZYV11299,Europe,Master's,N,N,1016,1992,South,68818.62,Year,Y,Certified
 EZYV11300,Asia,High School,Y,N,3763,2004,West,157559.04,Year,Y,Denied
 EZYV11301,Europe,Bachelor's,Y,N,1566,2006,West,12956.83,Year,Y,Certified
-EZYV11302,Africa,Master's,N,N,2570,1973,South,133552.89,Year,Y,Certified
+EZYV11302,Africa,Master's,N,N,2570,1973,South,,Year,Y,Certified
 EZYV11303,Asia,Bachelor's,N,N,4498,2008,South,273009.56,Year,Y,Certified
 EZYV11304,Asia,Master's,N,N,3365,1995,Northeast,89880.37,Year,N,Denied
 EZYV11305,South America,Bachelor's,N,N,1756,1991,South,546.5987,Hour,Y,Certified
@@ -12633,7 +12633,7 @@ EZYV12631,Asia,Bachelor's,N,N,1410,2008,Midwest,19519.52,Year,Y,Certified
 EZYV12632,Asia,Bachelor's,Y,N,758,2000,South,153517.8,Year,N,Certified
 EZYV12633,North America,Master's,Y,N,106606,1872,South,806.5067,Hour,Y,Denied
 EZYV12634,North America,Doctorate,Y,N,4003,1999,Northeast,54520.44,Year,Y,Certified
-EZYV12635,Asia,Bachelor's,Y,N,2045,1994,West,29511.45,Year,Y,Certified
+EZYV12635,Asia,,Y,N,2045,1994,West,29511.45,Year,Y,Certified
 EZYV12636,Europe,Bachelor's,Y,N,1923,2005,Northeast,4612.08,Year,Y,Certified
 EZYV12637,Asia,Bachelor's,N,N,202,2004,South,108313.41,Year,Y,Certified
 EZYV12638,Asia,High School,N,Y,525,2001,Midwest,97298.69,Year,Y,Denied
@@ -13633,7 +13633,7 @@ EZYV13631,Europe,High School,Y,Y,949,1986,Northeast,147382.29,Year,Y,Denied
 EZYV13632,Asia,Doctorate,Y,N,2112,2012,Northeast,80165.32,Year,Y,Certified
 EZYV13633,Asia,Bachelor's,Y,N,1793,1896,Northeast,134003.48,Year,Y,Certified
 EZYV13634,Asia,Bachelor's,Y,N,2711,1998,South,80085.36,Year,N,Certified
-EZYV13635,Asia,Bachelor's,Y,N,3942,2007,Northeast,96480.76,Year,Y,Denied
+EZYV13635,Asia,Bachelor's,Y,N,3942,2007,Northeast,,Year,Y,Denied
 EZYV13636,Asia,Bachelor's,N,N,2970,2012,Northeast,105352.89,Year,Y,Denied
 EZYV13637,Asia,Doctorate,N,N,563,2002,South,83823.33,Year,Y,Certified
 EZYV13638,Asia,Doctorate,Y,N,1986,2010,Northeast,16177.16,Year,Y,Certified
@@ -14125,7 +14125,7 @@ EZYV14123,Asia,Bachelor's,N,Y,1929,2006,South,144482.16,Year,Y,Certified
 EZYV14124,Asia,Master's,Y,N,1087,1984,Midwest,107005.5,Year,Y,Certified
 EZYV14125,North America,Bachelor's,Y,Y,1354,1935,West,82019.45,Year,Y,Certified
 EZYV14126,Asia,High School,Y,N,2552,1985,Northeast,67384.61,Week,Y,Denied
-EZYV14127,Europe,Master's,N,N,1233,2010,Northeast,77648.55,Year,Y,Certified
+EZYV14127,Europe,Master's,N,N,1233,2010,Northeast,,Year,Y,Certified
 EZYV14128,Asia,Bachelor's,N,N,4034,2008,South,59954.94,Year,Y,Certified
 EZYV14129,North America,High School,Y,N,4698,2003,South,28839.19,Year,Y,Denied
 EZYV14130,Europe,Bachelor's,Y,N,1835,1998,Northeast,33528.03,Year,Y,Certified
@@ -14824,7 +14824,7 @@ EZYV14822,Asia,Bachelor's,N,N,830,1996,South,42537.9,Year,Y,Certified
 EZYV14823,Asia,Bachelor's,N,N,2890,1865,Midwest,60563.34,Year,Y,Certified
 EZYV14824,Asia,Master's,N,N,3874,2010,Northeast,87996.91,Year,N,Certified
 EZYV14825,Asia,Bachelor's,N,N,107540,1981,Midwest,98394.55,Year,Y,Certified
-EZYV14826,Asia,High School,Y,N,1950,2008,South,47734.94,Year,Y,Denied
+EZYV14826,Asia,High School,Y,N,1950,2008,South,,Year,Y,Denied
 EZYV14827,Asia,Master's,N,N,3372,1999,Northeast,156225.89,Year,N,Denied
 EZYV14828,South America,Bachelor's,N,Y,3355,1847,South,152017.5,Year,Y,Certified
 EZYV14829,Asia,Bachelor's,Y,N,2893,2001,Island,74452.33824793524,Year,Y,Certified
@@ -14876,7 +14876,7 @@ EZYV14874,Europe,Bachelor's,Y,N,3395,1998,Northeast,131001.97,Year,Y,Certified
 EZYV14875,Asia,Bachelor's,Y,N,1092,1963,Island,63801.37,Year,Y,Denied
 EZYV14876,Asia,High School,Y,N,2111,2007,Northeast,70362.99,Year,Y,Denied
 EZYV14877,Europe,High School,Y,N,2837,1892,Northeast,6816.23,Year,Y,Denied
-EZYV14878,Asia,Bachelor's,N,N,197,2000,West,322.705,Hour,Y,Denied
+EZYV14878,Asia,,N,N,197,2000,West,322.705,Hour,Y,Denied
 EZYV14879,Asia,Bachelor's,Y,N,4875,1902,Midwest,69096.15,Year,N,Certified
 EZYV14880,Asia,Bachelor's,Y,N,1809,1989,Northeast,59815.88,Year,Y,Certified
 EZYV14881,Asia,Master's,N,N,2916,1963,West,20929.57,Year,Y,Certified
@@ -15054,7 +15054,7 @@ EZYV15052,Asia,Master's,N,N,3314,1975,South,72327.04,Year,Y,Certified
 EZYV15053,Africa,Master's,Y,N,158,1969,Northeast,73088.46,Year,Y,Certified
 EZYV15054,Asia,Master's,Y,N,505,2007,Island,60366.28,Year,Y,Certified
 EZYV15055,Asia,Doctorate,Y,N,3266,1991,West,142128.23,Year,Y,Certified
-EZYV15056,Asia,Bachelor's,N,N,172,2007,South,132922.73,Year,Y,Certified
+EZYV15056,Asia,Bachelor's,N,N,172,2007,South,,Year,Y,Certified
 EZYV15057,Asia,High School,Y,N,2524,2015,Northeast,89344.1,Year,Y,Denied
 EZYV15058,Asia,Master's,N,N,381,2013,Midwest,76692.14,Year,Y,Certified
 EZYV15059,Europe,High School,N,Y,1413,2010,West,41427.4,Year,Y,Denied
@@ -15763,7 +15763,7 @@ EZYV15761,Asia,Master's,N,N,1387,1981,Northeast,106403.95,Year,Y,Denied
 EZYV15762,North America,Doctorate,Y,N,1296,2005,West,281590.41,Year,N,Certified
 EZYV15763,Europe,Master's,N,N,5459,1882,Northeast,71819.68,Year,Y,Certified
 EZYV15764,Asia,Master's,Y,N,215,1974,South,13338.48,Year,Y,Certified
-EZYV15765,Europe,Doctorate,N,Y,243,2007,Northeast,19549.16,Year,Y,Certified
+EZYV15765,Europe,,N,Y,243,2007,Northeast,19549.16,Year,Y,Certified
 EZYV15766,Asia,Master's,Y,N,1470,1986,Northeast,51818.99,Year,Y,Certified
 EZYV15767,Asia,Bachelor's,Y,N,1410,1997,West,153076.02,Year,Y,Denied
 EZYV15768,Asia,Master's,N,N,256,2009,Northeast,152.7813,Hour,Y,Denied
@@ -16828,7 +16828,7 @@ EZYV16826,Europe,Bachelor's,Y,N,1455,1987,Northeast,128538.47,Year,Y,Certified
 EZYV16827,North America,High School,Y,N,2742,2014,South,94788.5,Year,Y,Denied
 EZYV16828,Asia,Master's,N,N,582,1991,Northeast,120471.3,Year,Y,Certified
 EZYV16829,North America,High School,N,N,2856,2004,Midwest,109121.62,Year,Y,Denied
-EZYV16830,Asia,Bachelor's,N,N,2221,1937,Midwest,124264.83,Year,Y,Denied
+EZYV16830,Asia,Bachelor's,N,N,2221,1937,Midwest,,Year,Y,Denied
 EZYV16831,Asia,Bachelor's,Y,N,3387,2000,South,39547.89,Year,Y,Certified
 EZYV16832,Europe,High School,Y,N,1485,2010,South,73469.66,Year,Y,Denied
 EZYV16833,North America,Master's,Y,N,345,2003,Northeast,113665.79,Year,Y,Denied
@@ -18019,7 +18019,7 @@ EZYV18017,North America,Master's,N,N,186,2014,South,92524.19,Year,N,Certified
 EZYV18018,Asia,High School,N,Y,1519,1876,Northeast,57166.04,Year,Y,Certified
 EZYV18019,Asia,High School,N,N,2931,1993,South,122388.47,Year,Y,Certified
 EZYV18020,Asia,Bachelor's,N,N,1986,2007,Northeast,701.5948,Hour,Y,Denied
-EZYV18021,Asia,Bachelor's,Y,N,453,1884,Midwest,134089.1,Year,Y,Denied
+EZYV18021,Asia,Bachelor's,Y,N,453,1884,Midwest,,Year,Y,Denied
 EZYV18022,Europe,Master's,N,N,566,2004,West,147795.3,Year,Y,Denied
 EZYV18023,Asia,Bachelor's,Y,N,1027,2010,West,67260.79,Year,Y,Certified
 EZYV18024,North America,Master's,Y,N,885,2000,Northeast,142793.24,Year,N,Certified
@@ -18084,7 +18084,7 @@ EZYV18082,Asia,High School,Y,N,972,1911,West,66469.19,Year,Y,Certified
 EZYV18083,Asia,Master's,Y,N,4524,1856,Northeast,47077.85,Year,Y,Certified
 EZYV18084,Asia,High School,N,N,3549,1886,Island,130706.81,Year,Y,Certified
 EZYV18085,Asia,Master's,Y,N,1023,1997,Midwest,68021.59,Year,Y,Certified
-EZYV18086,Asia,Bachelor's,Y,N,350,1911,South,38133.81,Year,Y,Denied
+EZYV18086,Asia,Bachelor's,Y,N,350,1911,South,,Year,Y,Denied
 EZYV18087,North America,Bachelor's,Y,N,1022,1962,Northeast,107762.7,Year,Y,Denied
 EZYV18088,Asia,Master's,Y,Y,2130,2011,Midwest,124829.82,Year,Y,Denied
 EZYV18089,Asia,Master's,Y,N,52,2006,Northeast,62327.78,Year,N,Certified
@@ -19515,7 +19515,7 @@ EZYV19513,Asia,Bachelor's,N,N,824,1854,West,102.19,Hour,Y,Denied
 EZYV19514,South America,Doctorate,N,N,1985,1989,Northeast,221498.71,Year,Y,Certified
 EZYV19515,Asia,Bachelor's,Y,N,2443,1998,Midwest,11595.22,Year,Y,Denied
 EZYV19516,North America,Doctorate,Y,N,652,1999,Northeast,40221.54,Year,Y,Certified
-EZYV19517,Asia,High School,Y,N,3041,1842,Northeast,105151.34,Year,Y,Denied
+EZYV19517,Asia,High School,Y,N,3041,1842,Northeast,,Year,Y,Denied
 EZYV19518,Asia,Bachelor's,N,N,1217,1998,Northeast,147741.44,Year,Y,Denied
 EZYV19519,Asia,Doctorate,N,N,1826,1974,West,99957.65,Year,N,Certified
 EZYV19520,Asia,Master's,N,Y,6216,2008,South,108685.48,Year,Y,Certified
@@ -20168,7 +20168,7 @@ EZYV20166,Asia,Master's,Y,N,4513,1986,South,67742.59,Year,N,Certified
 EZYV20167,Europe,Bachelor's,N,N,3299,1998,South,85625.97,Year,Y,Certified
 EZYV20168,Oceania,Master's,N,N,1372,2008,Island,99248.87,Year,Y,Certified
 EZYV20169,Asia,Master's,N,N,5190,2013,South,100826.54,Year,Y,Certified
-EZYV20170,Europe,Bachelor's,N,N,18551,1984,West,85581.84,Year,Y,Certified
+EZYV20170,Europe,Bachelor's,N,N,18551,1984,West,,Year,Y,Certified
 EZYV20171,Asia,Bachelor's,N,N,1918,2007,Northeast,42855.55,Year,Y,Denied
 EZYV20172,Asia,Master's,N,N,473,2005,Midwest,89001.33,Year,Y,Certified
 EZYV20173,Asia,Bachelor's,N,N,3335,1998,South,67253.64,Year,Y,Certified
@@ -20406,7 +20406,7 @@ EZYV20404,Asia,Master's,N,N,4341,2006,South,56304.27,Year,Y,Certified
 EZYV20405,Asia,Bachelor's,N,N,2263,2004,Northeast,121614.59,Year,N,Denied
 EZYV20406,North America,Master's,N,Y,2789,1855,Northeast,84539.62,Year,Y,Denied
 EZYV20407,Asia,Master's,N,N,3114,1920,South,97670.03,Year,Y,Certified
-EZYV20408,Europe,High School,N,N,3658,1966,Northeast,4973.17,Year,Y,Certified
+EZYV20408,Europe,High School,N,N,3658,1966,Northeast,,Year,Y,Certified
 EZYV20409,Europe,Bachelor's,N,N,1248,1990,South,58105.44,Year,Y,Certified
 EZYV20410,Asia,Bachelor's,Y,N,795,2012,South,113941.31,Year,Y,Certified
 EZYV20411,Asia,Master's,N,N,84,1928,Northeast,95086.76,Year,Y,Certified
@@ -21123,7 +21123,7 @@ EZYV21121,Asia,Bachelor's,N,N,2580,2013,West,95254.9,Year,Y,Certified
 EZYV21122,Asia,Doctorate,N,N,1042,1839,West,239.1755,Hour,Y,Denied
 EZYV21123,Asia,Bachelor's,N,N,3534,2010,West,120174.36,Year,Y,Denied
 EZYV21124,Asia,Master's,N,N,1415,1968,Midwest,3708.18,Year,N,Denied
-EZYV21125,Asia,Bachelor's,Y,N,1574,2004,Northeast,188453.92,Year,Y,Certified
+EZYV21125,Asia,,Y,N,1574,2004,Northeast,188453.92,Year,Y,Certified
 EZYV21126,Asia,Master's,Y,N,2763,2011,South,28808.16,Year,Y,Certified
 EZYV21127,Asia,Master's,N,N,768,2007,Northeast,121109.74,Year,N,Certified
 EZYV21128,Asia,High School,N,N,671,1998,Northeast,27294.38,Year,Y,Denied
@@ -21527,7 +21527,7 @@ EZYV21525,Asia,Bachelor's,N,N,2776,1875,West,35560.68,Year,Y,Certified
 EZYV21526,North America,Bachelor's,Y,Y,4864,1851,South,56297.05,Year,Y,Certified
 EZYV21527,Asia,Master's,N,N,195,2006,Midwest,126145.21,Year,Y,Certified
 EZYV21528,Asia,Bachelor's,Y,Y,2877,1969,South,72125.02,Year,Y,Denied
-EZYV21529,Asia,Master's,Y,N,944,1998,Northeast,54786.76,Year,Y,Denied
+EZYV21529,Asia,Master's,Y,N,944,1998,Northeast,,Year,Y,Denied
 EZYV21530,Europe,Bachelor's,N,N,4718,1856,South,418.7553,Hour,Y,Denied
 EZYV21531,Asia,Bachelor's,Y,N,3032,2003,South,53882.15,Year,Y,Certified
 EZYV21532,Europe,Bachelor's,N,Y,1724,1992,West,110824.54,Year,Y,Certified
@@ -21954,7 +21954,7 @@ EZYV21952,Asia,Bachelor's,Y,N,3162,2006,South,1832.8,Year,Y,Denied
 EZYV21953,Europe,Bachelor's,N,N,1854,1914,South,118482.92,Year,Y,Certified
 EZYV21954,Asia,Master's,Y,N,382,2003,Midwest,239617.43,Year,Y,Certified
 EZYV21955,Asia,Master's,N,N,15138,2007,Northeast,133411.74,Year,Y,Certified
-EZYV21956,Asia,Bachelor's,Y,N,2430,2001,West,40845.61,Year,Y,Denied
+EZYV21956,Asia,Bachelor's,Y,N,2430,2001,West,,Year,Y,Denied
 EZYV21957,North America,Bachelor's,N,N,105,2003,Northeast,69098.66,Year,Y,Certified
 EZYV21958,Asia,Doctorate,Y,N,922,1981,Northeast,42139.74,Year,Y,Certified
 EZYV21959,Asia,Bachelor's,Y,N,2164,1971,West,112491.57,Year,Y,Denied
@@ -22302,7 +22302,7 @@ EZYV22300,North America,Bachelor's,N,N,704,1980,South,31204.63,Year,Y,Certified
 EZYV22301,Asia,High School,Y,N,487,1979,Midwest,102140.3,Year,Y,Certified
 EZYV22302,Asia,Doctorate,Y,N,1635,1996,South,116722.19,Year,Y,Certified
 EZYV22303,Asia,Doctorate,Y,N,5630,1989,West,13819.35,Year,Y,Denied
-EZYV22304,Asia,Bachelor's,N,N,3397,2000,Northeast,49303.9,Year,Y,Denied
+EZYV22304,Asia,,N,N,3397,2000,Northeast,49303.9,Year,Y,Denied
 EZYV22305,Asia,Bachelor's,Y,N,1121,1998,South,203013.68,Year,Y,Certified
 EZYV22306,Asia,Bachelor's,N,Y,2017,1989,South,46368.11,Year,Y,Certified
 EZYV22307,North America,Master's,N,N,455,1997,West,38799.54,Year,Y,Denied
@@ -24112,7 +24112,7 @@ EZYV24110,Asia,Doctorate,Y,Y,1657,2006,West,51157.34,Year,Y,Certified
 EZYV24111,Europe,High School,Y,N,4768,1951,Northeast,111092.46,Year,N,Certified
 EZYV24112,Asia,Bachelor's,N,N,1713,2005,Northeast,791.7025,Hour,Y,Denied
 EZYV24113,Asia,Bachelor's,N,N,4494,2007,Northeast,16867.53,Year,Y,Denied
-EZYV24114,North America,Doctorate,N,N,1865,1997,Northeast,18275.8,Year,Y,Certified
+EZYV24114,North America,Doctorate,N,N,1865,1997,Northeast,,Year,Y,Certified
 EZYV24115,Asia,Bachelor's,Y,N,2658,2004,Northeast,122440.88,Year,Y,Certified
 EZYV24116,Asia,Bachelor's,N,N,1500,1977,West,116983.38,Year,Y,Denied
 EZYV24117,Asia,Bachelor's,N,Y,3310,2008,South,76668.14,Year,Y,Certified
@@ -24125,7 +24125,7 @@ EZYV24123,Asia,Bachelor's,Y,N,579,1980,South,73337.09,Year,Y,Certified
 EZYV24124,Asia,Master's,Y,N,2985,1993,West,56281.02,Year,Y,Denied
 EZYV24125,North America,Bachelor's,N,Y,3060,2007,West,65467.38,Year,Y,Certified
 EZYV24126,Asia,Bachelor's,N,N,70,1978,Midwest,92561.17,Year,Y,Certified
-EZYV24127,Asia,High School,Y,N,926,1992,West,72128.36,Year,Y,Denied
+EZYV24127,Asia,High School,Y,N,926,1992,West,,Year,Y,Denied
 EZYV24128,Asia,Bachelor's,N,N,2551,2000,West,79434.65,Year,Y,Certified
 EZYV24129,Asia,Master's,Y,N,1807,2010,South,31662.03,Year,Y,Certified
 EZYV24130,Oceania,Master's,Y,N,3182,2002,South,140541.17,Year,N,Certified
