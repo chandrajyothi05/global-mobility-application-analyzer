@@ -22,3 +22,8 @@ conda activate application
 ```bash
 pip install -r requirements.txt
 ```
+
+##export the environment variable
+```bash
+export MONGODB_URL="mongodb+srv://fidhamanaph:imthiyaz1@cluster0.9ounu25.mongodb.net/?appName=Cluster0"
+```
