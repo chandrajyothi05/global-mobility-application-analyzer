@@ -51,3 +51,26 @@ class DataIngestion:
             logging.info("Exporting train and test path")
         except Exception as e:
             raise USVisaException(e,sys)
+
+    def initiate_data_ingestion(self)->DataIngestionArtifact:
+        # method  initiates the data ingestion components of training pipeline
+        # output : train set and test set are returned as the artifacts of data ingestion components
+        logging.info("Entered initiate_data_ingestion method of DataIngestion class")
+
+        try:
+            dataframe= self.export_data_into_feature_store()
+            logging.info("Got the data from mongodb")
+            self.split_data_as_train_test(dataframe)
+            logging.info("Performed train test split on the dataset")
+            logging.info("Exited initiate_data_ingestion method of DataIngestion class")
+            data_ingestion_artifact=DataIngestionArtifact(training_file_path=self.data_ingestion_config.training_file_path,
+                                                        testing_file_path=self.data_ingestion_config.testing_file_path)
+            logging.info(f"Data Ingestion artifact: {data_ingestion_artifact}")
+            return data_ingestion_artifact
+        except Exception as e:
+            raise USVisaException(e,sys) from e
+        
+
+
+
+    
