@@ -11,6 +11,7 @@ columns:
   - unit_of_wage: category
   - full_time_position: category
   - case_status: category
+  - company_age: int
 
 numerical_columns:
   - no_of_employees
