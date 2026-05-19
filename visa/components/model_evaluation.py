@@ -65,7 +65,9 @@ class ModelEvaluation:
                                            difference=trained_model_f1_score - tmp_best_model_score)
             logging.info(f"Result: {result}")
             return result
-    
+        except Exception as e:
+            raise USVisaException(e,sys)
+        
     def initiate_model_evaluation(self)->ModelEvaluationArtifact:
         # this method initiates all steps of the model evaluation
         try:
