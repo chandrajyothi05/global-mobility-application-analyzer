@@ -32,14 +32,6 @@ class VisaData:
         except Exception as e:
             raise USVisaException(e,sys) from e
         
-    def get_usvisa_input_data_frame(self)->DataFrame:
-        # method returns a dataframe from visadata class input
-        try:
-            usvisa_input_dict=self.get_usvisa_input_data_as_dict()
-            return DataFrame(usvisa_input_dict)
-        except Exception as e:
-            raise USVisaException(e,sys) from e
-        
     def get_usvisa_data_as_dict(self):
         # method returns a dictionary from VisaData class
         logging.info("Entered get_usvisa_data_as_dict")
@@ -60,7 +52,16 @@ class VisaData:
             return input_data
         except Exception as e:
             raise USVisaException(e,sys) from e
+         
+    def get_usvisa_input_data_frame(self)->DataFrame:
+        # method returns a dataframe from visadata class input
+        try:
+            usvisa_input_dict=self.get_usvisa_data_as_dict()
+            return DataFrame(usvisa_input_dict)
+        except Exception as e:
+            raise USVisaException(e,sys) from e
         
+    
 
 class VisaClassifier:
     def __init__(self,prediction_pipeline_config:VisaPredictorConfig=VisaPredictorConfig(),):
