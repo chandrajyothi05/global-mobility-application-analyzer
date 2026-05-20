@@ -25,6 +25,7 @@ AWS_ACCESS_KEY_ID_ENV_KEY="AWS_ACCESS_KEY_ID"
 AWS_SECRET_ACCESS_KEY_ENV_KEY="AWS_SECRET_ACCESS_KEY"
 REGION_NAME="us-east-1"
 
+
 #data ingestion related constants
 DATA_INGESTION_COLLECTION_NAME:str="visa_data"
 DATA_INGESTION_DIR_NAME:str="data_ingestion"
@@ -53,5 +54,5 @@ MODEL_TRAINER_MODEL_CONFIG_FILE_PATH:str= os.path.join("config","model.yaml")
 
 
 MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE:float=0.02
-MODEL_BUCKET_NAME = "visabucket25"
+MODEL_BUCKET_NAME = "myvisbuc2026"
 MODEL_PUSHER_S3_KEY = "model-registry"
