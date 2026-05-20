@@ -2,8 +2,7 @@ import boto3
 from io import StringIO
 from typing import Union, List
 import os,sys
-
-from pkg_resources import to_filename
+from visa.configuration.aws_connection import S3Client
 from visa.logger import logging
 from visa.exception import USVisaException
 from mypy_boto3_s3.service_resource import Bucket
