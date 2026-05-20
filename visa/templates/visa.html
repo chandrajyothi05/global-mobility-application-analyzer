@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>US Visa Predictor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/style.css') }}">
+</head>
+<body>
+
+    <div class="bg-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-inner">
+            <div class="nav-brand">
+                <span class="brand-icon">🛂</span>
+                <span class="brand-text">VisaIQ</span>
+            </div>
+            <a href="/train" class="train-btn">Retrain Model</a>
+        </div>
+    </nav>
+
+    <main class="main">
+        <div class="hero">
+            <p class="hero-eyebrow">AI-Powered Immigration Intelligence</p>
+            <h1 class="hero-title">Will Your Visa<br><em>Be Approved?</em></h1>
+            <p class="hero-subtitle">Fill in the details below and our machine learning model will predict your US visa approval chances instantly.</p>
+        </div>
+
+        {% if context and context != "Rendering" %}
+        <div class="result-banner {% if 'approved' in context.lower() %}result-approved{% else %}result-denied{% endif %}">
+            <div class="result-icon">{% if 'approved' in context.lower() %}✅{% else %}❌{% endif %}</div>
+            <div class="result-text">
+                <p class="result-label">Prediction Result</p>
+                <p class="result-value">{{ context }}</p>
+            </div>
+        </div>
+        {% endif %}
+
+        <div class="card">
+            <form action="/" method="post" class="form">
+
+                <div class="form-grid">
+
+                    <div class="field-group">
+                        <label class="field-label" for="continent">
+                            <span class="label-icon">🌍</span> Continent of Origin
+                        </label>
+                        <div class="select-wrapper">
+                            <select class="field-input" id="continent" name="continent" required>
+                                <option value="" disabled selected>Select continent</option>
+                                <option>Asia</option>
+                                <option>Africa</option>
+                                <option>North America</option>
+                                <option>Europe</option>
+                                <option>South America</option>
+                                <option>Oceania</option>
+                            </select>
+                            <span class="select-arrow">▾</span>
+                        </div>
+                    </div>
+
+                    <div class="field-group">
+                        <label class="field-label" for="education_of_employee">
+                            <span class="label-icon">🎓</span> Education Level
+                        </label>
+                        <div class="select-wrapper">
+                            <select class="field-input" id="education_of_employee" name="education_of_employee" required>
+                                <option value="" disabled selected>Select education</option>
+                                <option>High School</option>
+                                <option>Bachelor's</option>
+                                <option>Master's</option>
+                                <option>Doctorate</option>
+                            </select>
+                            <span class="select-arrow">▾</span>
+                        </div>
+                    </div>
+
+                    <div class="field-group">
+                        <label class="field-label" for="has_job_experience">
+                            <span class="label-icon">💼</span> Job Experience
+                        </label>
+                        <div class="radio-group">
+                            <label class="radio-option">
+                                <input type="radio" name="has_job_experience" value="Y" required>
+                                <span class="radio-label">Yes</span>
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="has_job_experience" value="N">
+                                <span class="radio-label">No</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="field-group">
+                        <label class="field-label" for="requires_job_training">
+                            <span class="label-icon">🛠️</span> Requires Job Training
+                        </label>
+                        <div class="radio-group">
+                            <label class="radio-option">
+                                <input type="radio" name="requires_job_training" value="Y" required>
+                                <span class="radio-label">Yes</span>
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="requires_job_training" value="N">
+                                <span class="radio-label">No</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="field-group">
+                        <label class="field-label" for="no_of_employees">
+                            <span class="label-icon">👥</span> Number of Employees
+                        </label>
+                        <input type="number" class="field-input" id="no_of_employees" name="no_of_employees" placeholder="e.g. 500" min="1" required>
+                    </div>
+
+                    <div class="field-group">
+                        <label class="field-label" for="company_age">
+                            <span class="label-icon">🏢</span> Company Age (years)
+                        </label>
+                        <input type="number" class="field-input" id="company_age" name="company_age" placeholder="e.g. 15" min="0" required>
+                    </div>
+
+                    <div class="field-group">
+                        <label class="field-label" for="region_of_employment">
+                            <span class="label-icon">📍</span> Region of Employment
+                        </label>
+                        <div class="select-wrapper">
+                            <select class="field-input" id="region_of_employment" name="region_of_employment" required>
+                                <option value="" disabled selected>Select region</option>
+                                <option>West</option>
+                                <option>Northeast</option>
+                                <option>South</option>
+                                <option>Midwest</option>
+                                <option>Island</option>
+                            </select>
+                            <span class="select-arrow">▾</span>
+                        </div>
+                    </div>
+
+                    <div class="field-group">
+                        <label class="field-label" for="unit_of_wage">
+                            <span class="label-icon">📅</span> Wage Unit
+                        </label>
+                        <div class="select-wrapper">
+                            <select class="field-input" id="unit_of_wage" name="unit_of_wage" required>
+                                <option value="" disabled selected>Select wage unit</option>
+                                <option>Hour</option>
+                                <option>Week</option>
+                                <option>Month</option>
+                                <option>Year</option>
+                            </select>
+                            <span class="select-arrow">▾</span>
+                        </div>
+                    </div>
+
+                    <div class="field-group">
+                        <label class="field-label" for="prevailing_wage">
+                            <span class="label-icon">💰</span> Prevailing Wage ($)
+                        </label>
+                        <input type="number" class="field-input" id="prevailing_wage" name="prevailing_wage" placeholder="e.g. 80000" min="0" required>
+                    </div>
+
+                    <div class="field-group">
+                        <label class="field-label" for="full_time_position">
+                            <span class="label-icon">⏱️</span> Full Time Position
+                        </label>
+                        <div class="radio-group">
+                            <label class="radio-option">
+                                <input type="radio" name="full_time_position" value="Y" required>
+                                <span class="radio-label">Yes</span>
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="full_time_position" value="N">
+                                <span class="radio-label">No</span>
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    <span class="btn-text">Predict Visa Status</span>
+                    <span class="btn-icon">→</span>
+                </button>
+
+            </form>
+        </div>
+
+        <footer class="footer">
+            <p>Powered by Machine Learning · Built with FastAPI · Model accuracy ~95%</p>
+        </footer>
+    </main>
+
+</body>
+</html>
