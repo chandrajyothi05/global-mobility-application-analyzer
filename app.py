@@ -9,6 +9,8 @@ from typing import Optional
 from visa.constants import APP_HOST,APP_PORT
 from visa.pipeline.prediction_pipeline import VisaData,VisaClassifier
 from visa.pipeline.training_pipeline import TrainingPipeline
+from dotenv import load_dotenv
+load_dotenv()
 
 app=FastAPI()
 app.mount("/static",StaticFiles(directory="static"),name="static")
