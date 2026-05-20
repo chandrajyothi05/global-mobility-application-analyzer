@@ -44,7 +44,7 @@ class ModelEvaluation:
     def evaluate_model(self)->EvaluateModelResponse:
         #function is used to evaluate trained model with production model and choose best model
         try:
-            test_df=pd.read_csv(self.data_ingestion_artifact.test_file_path)
+            test_df=pd.read_csv(self.data_ingestion_artifact.testing_file_path)
             test_df['company_age']=CURRENT_YEAR-test_df['yr_of_estab']
 
             x,y=test_df.drop(TARGET_COLUMN,axis=1),test_df[TARGET_COLUMN]
