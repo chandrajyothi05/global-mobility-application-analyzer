@@ -17,21 +17,30 @@
         <div class="orb orb-3"></div>
     </div>
 
+   
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup">
+            <div class="popup-icon" id="popupIcon">⏳</div>
+            <h3 class="popup-title" id="popupTitle">Retraining Model...</h3>
+            <p class="popup-msg" id="popupMsg">Please wait while the pipeline runs. This may take a few minutes.</p>
+            <button class="popup-btn" id="popupBtn" style="display:none" onclick="closePopup()">OK</button>
+        </div>
+    </div>
+
     <nav class="navbar">
         <div class="nav-inner">
             <div class="nav-brand">
-                <span class="brand-icon">🛂</span>
-                <span class="brand-text">VisaIQ</span>
+                <img src="logo.jpeg" alt="VisaOracle Logo" class="brand-logo">
+                <span class="brand-text">VisaOracle</span>
             </div>
-            <a href="/train" class="train-btn">Retrain Model</a>
+            <button class="train-btn" onclick="startRetrain()">Retrain Model</button>
         </div>
     </nav>
 
     <main class="main">
         <div class="hero">
-            <p class="hero-eyebrow">AI-Powered Immigration Intelligence</p>
             <h1 class="hero-title">Will Your Visa<br><em>Be Approved?</em></h1>
-            <p class="hero-subtitle">Fill in the details below and our machine learning model will predict your US visa approval chances instantly.</p>
+            <p class="hero-subtitle">Fill in the details below and our machine learning model will predict your US visa approval chances instantly!</p>
         </div>
 
         {% if context and context != "Rendering" %}
@@ -84,7 +93,7 @@
                     </div>
 
                     <div class="field-group">
-                        <label class="field-label" for="has_job_experience">
+                        <label class="field-label">
                             <span class="label-icon">💼</span> Job Experience
                         </label>
                         <div class="radio-group">
@@ -100,7 +109,7 @@
                     </div>
 
                     <div class="field-group">
-                        <label class="field-label" for="requires_job_training">
+                        <label class="field-label">
                             <span class="label-icon">🛠️</span> Requires Job Training
                         </label>
                         <div class="radio-group">
@@ -170,7 +179,7 @@
                     </div>
 
                     <div class="field-group">
-                        <label class="field-label" for="full_time_position">
+                        <label class="field-label">
                             <span class="label-icon">⏱️</span> Full Time Position
                         </label>
                         <div class="radio-group">
@@ -196,9 +205,54 @@
         </div>
 
         <footer class="footer">
-            <p>Powered by Machine Learning · Built with FastAPI · Model accuracy ~95%</p>
+            <p>Where technology meets opportunity 🌐</p>
         </footer>
     </main>
+
+    <script>
+        function startRetrain() {
+            const overlay = document.getElementById('popupOverlay');
+            const icon    = document.getElementById('popupIcon');
+            const title   = document.getElementById('popupTitle');
+            const msg     = document.getElementById('popupMsg');
+            const btn     = document.getElementById('popupBtn');
+
+            icon.textContent  = '⏳';
+            title.textContent = 'Retraining Model...';
+            msg.textContent   = 'Please wait while the pipeline runs. This may take a few minutes.';
+            btn.style.display = 'none';
+            overlay.classList.add('active');
+
+            fetch('/train')
+                .then(res => res.text())
+                .then(text => {
+                    if (text.toLowerCase().includes('error')) {
+                        icon.textContent  = '❌';
+                        title.textContent = 'Retraining Failed';
+                        msg.textContent   = text;
+                    } else {
+                        icon.textContent  = '✅';
+                        title.textContent = 'Retraining Complete!';
+                        msg.textContent   = 'The model has been successfully retrained and pushed to S3.';
+                    }
+                    btn.style.display = 'block';
+                })
+                .catch(() => {
+                    icon.textContent  = '❌';
+                    title.textContent = 'Something went wrong';
+                    msg.textContent   = 'Could not reach the training endpoint. Please try again.';
+                    btn.style.display = 'block';
+                });
+        }
+
+        function closePopup() {
+            document.getElementById('popupOverlay').classList.remove('active');
+        }
+
+        document.getElementById('popupOverlay').addEventListener('click', function(e) {
+            if (e.target === this) closePopup();
+        });
+    </script>
 
 </body>
 </html>
