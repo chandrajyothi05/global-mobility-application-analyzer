@@ -32,5 +32,6 @@ GIT export AWS_ACCESS_KEY=<AWS_ACCESS_KEY_ID>
 export
 AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY_ID>
 
+529845836660.dkr.ecr.us-east-1.amazonaws.com/visarepo
 ```
 
