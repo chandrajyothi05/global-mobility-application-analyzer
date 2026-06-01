@@ -69,14 +69,13 @@ async def trainRouteClient():
         return Response("Training Successful")
     except Exception as e:
         return Response(f"Error Occurred! {e}")
-
+    
 
 @app.post("/")
 async def predictRouteClient(request: Request):
     try:
         form = DataForm(request)
         await form.get_usvisa_data()
-
         usvisa_data = VisaData(
             continent=form.continent,
             education_of_employee=form.education_of_employee,
@@ -103,7 +102,6 @@ async def predictRouteClient(request: Request):
 
     except Exception as e:
         return {"status": False, "error": f"{e}"}
-
 
 if __name__ == "__main__":
     app_run(app, host=APP_HOST, port=APP_PORT)

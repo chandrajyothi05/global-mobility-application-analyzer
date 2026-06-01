@@ -40,7 +40,7 @@ jobs:
   Continuous-Deployment:
     needs: Continuous-Integration
     runs-on: self-hosted
-
+    
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
