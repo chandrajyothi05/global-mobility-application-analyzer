@@ -230,7 +230,8 @@ Output:
 
 ### System Architecture Diagram
 
-> *(Insert System Architecture Screenshot Here)*
+<img width="1619" height="972" alt="system architecture of gmaa" src="https://github.com/user-attachments/assets/395e91cd-825e-4820-9a1d-aef7974becd0" />
+
 
 ```text
 MongoDB
@@ -261,12 +262,15 @@ User Predictions
 ## 📸 Application Screenshots
 
 ### User Interface
-
-> *(Insert Home Page Screenshot Here)*
-
-### Prediction Result
-
-> *(Insert Prediction Output Screenshot Here)*
+<img width="1600" height="593" alt="1" src="https://github.com/user-attachments/assets/7348b5bc-4113-42bd-a85f-9c7d06ab70f3" />
+<img width="1600" height="899" alt="2" src="https://github.com/user-attachments/assets/c734e484-ed5c-48b3-a048-5b2a97eee169" />
+<img width="1600" height="899" alt="3" src="https://github.com/user-attachments/assets/bc1caf38-86f2-4008-8929-762fe72d2cb1" />
+<img width="1600" height="899" alt="4" src="https://github.com/user-attachments/assets/0e84be80-a0dd-467c-b8ec-c271336c88cc" />
+<img width="1600" height="634" alt="5" src="https://github.com/user-attachments/assets/24e16756-9b7e-4214-abdc-fac73bba8664" />
+<img width="1600" height="899" alt="6" src="https://github.com/user-attachments/assets/9bd9a47f-6596-4c6b-b66f-54c57676fdcd" />
+<img width="1600" height="899" alt="7" src="https://github.com/user-attachments/assets/d5590f29-ddf2-4599-bfba-04c2760296bc" />
+<img width="1600" height="899" alt="8" src="https://github.com/user-attachments/assets/c28e8708-aa1e-44a1-854a-6db2eca20014" />
+<img width="1600" height="899" alt="9" src="https://github.com/user-attachments/assets/c6521793-31a3-4d74-9777-7c28ea76b88b" />
 
 ---
 
