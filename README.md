@@ -307,9 +307,3 @@ Machine Learning Intern
 ### Fidha Manaph
 
 Machine Learning Intern
-
----
-
-## 📄 License
-
-This project is developed for educational and learning purposes as part of a Machine Learning and MLOps internship project.
